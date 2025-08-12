@@ -6,6 +6,7 @@ import AboutPage from "../pages/About";
 import ContactPage from "../pages/contact";
 import App from "../App";
 import DummyProduct from "../components/DummyProduct";
+import DummyProductPage from "../components/DummyProductPage";
 
 export const appRoutes = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ export const appRoutes = createBrowserRouter([
       {
         path: "/contact",
         element: <ContactPage />,
+      },
+      {
+        path: "/product/:productId",
+        element: <DummyProductPage />,
       },
     ],
     errorElement: <h1>not Found </h1>,
