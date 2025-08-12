@@ -14,8 +14,6 @@ const DummyProductPage = () => {
       "https://www.imagineonline.store/cdn/shop/files/iPhone_15_Pro_Max_Blue_Titanium_PDP_Image_Position-1__en-IN.jpg?v=1694758834&width=1445",
     gallery: [
       "https://www.imagineonline.store/cdn/shop/files/iPhone_15_Pro_Max_Blue_Titanium_PDP_Image_Position-1__en-IN.jpg?v=1694758834&width=1445",
-      "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-pro-blue-titanium",
-      "https://www.apple.com/v/iphone-15-pro/h/images/key-features/key-feature_1.jpg",
     ],
     attributes: {
       "Screen Size": "6.1 inch",
